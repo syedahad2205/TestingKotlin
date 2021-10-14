@@ -60,7 +60,7 @@ fun main(args:Array<String>){
     lambdaex()
     lambdasum(2,4)
 
-    //type interference
+    //type inference
     val sum2 = { a: Int, b: Int ->
         val res = a + b
         res . toString ()
